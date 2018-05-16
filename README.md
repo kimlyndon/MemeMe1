@@ -6,3 +6,8 @@ Previous updates to this project were unsuccessful for prior submissions to Udac
   both text fields. 
 * Create reusable mehtod that accepts UIImagePickerControllerSourceType as a parameter and use it for the camera and album
   buttons. 
+  
+  ## Third Review
+* Add value to privacy key (camera)
+* Add value to privacy key (photo album)
+* Add constraint to top of navigation bar
