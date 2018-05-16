@@ -25,9 +25,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
+	<string>Access camera for custom image</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
+	<string>Access library for saved image</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Saves completed meme</string>
 	<key>UILaunchStoryboardName</key>
