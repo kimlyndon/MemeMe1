@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MemeMe1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jep-et-bdQ">
-                                <rect key="frame" x="0.0" y="435" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="733" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="ndk-aO-LRz"/>
                                 </constraints>
@@ -40,10 +40,10 @@
                                 </items>
                             </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uf6-hA-yWa">
-                                <rect key="frame" x="0.0" y="35" width="320" height="400"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="645"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="iC0-ME-4PM" userLabel="topText">
-                                <rect key="frame" x="80" y="70" width="160" height="48"/>
+                                <rect key="frame" x="107.66666666666669" y="123" width="160" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="kTI-yL-Jd5"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="no2-2G-NOX"/>
@@ -53,7 +53,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ack-pC-crY" userLabel="bottomText">
-                                <rect key="frame" x="80" y="337" width="160" height="48"/>
+                                <rect key="frame" x="107.66666666666669" y="635" width="160" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="rpc-pk-TZJ"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="viH-yH-u2B"/>
@@ -63,7 +63,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8da-mG-ySs">
-                                <rect key="frame" x="0.0" y="-9" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="yIZ-aO-joM"/>
                                 </constraints>
@@ -87,7 +87,7 @@
                             <constraint firstItem="F2e-1a-LtX" firstAttribute="bottom" secondItem="jep-et-bdQ" secondAttribute="bottom" constant="1" id="FH3-VL-zNZ"/>
                             <constraint firstItem="uf6-hA-yWa" firstAttribute="top" secondItem="8da-mG-ySs" secondAttribute="bottom" id="HgT-fE-yae"/>
                             <constraint firstItem="jep-et-bdQ" firstAttribute="leading" secondItem="F2e-1a-LtX" secondAttribute="leading" id="Qab-j4-v6s"/>
-                            <constraint firstItem="iC0-ME-4PM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="70" id="aPD-tm-qCS"/>
+                            <constraint firstItem="8da-mG-ySs" firstAttribute="top" secondItem="F2e-1a-LtX" secondAttribute="top" id="efu-fY-efb"/>
                             <constraint firstItem="F2e-1a-LtX" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ack-pC-crY" secondAttribute="trailing" id="g1L-Vc-Fv3"/>
                             <constraint firstItem="uf6-hA-yWa" firstAttribute="leading" secondItem="F2e-1a-LtX" secondAttribute="leading" id="g5p-tA-xKP"/>
                             <constraint firstItem="8da-mG-ySs" firstAttribute="trailing" secondItem="F2e-1a-LtX" secondAttribute="trailing" id="gHH-2n-iTV"/>
