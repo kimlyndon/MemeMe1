@@ -1,13 +1,13 @@
 # MemeMe1
 ## UIKit Fundamentals
-Previous updates to this project were unsuccessful for prior submissions to Udacity Reviewers (such as the updated storyboard constraints and the info.plist privacy keys). Repo was deleted and reestablished with completed requirements of:
+### Udacity iOS Devoloper Nanodegree
 
-* Create reusable method that accepts a UITextField and the String to set the text to as parameters and use it for setting up
-  both text fields. 
-* Create reusable mehtod that accepts UIImagePickerControllerSourceType as a parameter and use it for the camera and album
-  buttons. 
-  
-  ## Third Review
-* Add value to privacy key (camera)
-* Add value to privacy key (photo album)
-* Add constraint to top of navigation bar
+Build an app where a user can choose an image to create a meme from their camera roll (or take a picture with the camera), add text to the top and bottom of the image, and share it with friends. 
+
+* Text fields need to be clear and have white text with black outline.
+* Font needs to be similar to Impact.
+* Image needs to raise when bottom text field is initiated for editing to accommodate the keyboard and lower when return key
+  is pressed (also dismissing the keyboard). 
+* Camera button needs to be disabled when used on a device without a camera. 
+
+Utilizes ActivityViewController. 
