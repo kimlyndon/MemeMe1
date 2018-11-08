@@ -2,7 +2,20 @@
 ## UIKit Fundamentals
 ### Udacity iOS Devoloper Nanodegree
 
-Build an app where a user can choose an image to create a meme from their camera roll (or take a picture with the camera), add text to the top and bottom of the image, and share it with friends. 
+MemeMe is a meme-generating app that enables a user to attach a caption to a picture from their phone. After adding text to an image chosen from the Photo Album or Camera, the user can share with others.
+
+## Contents
+EditorController - consists of an image view and two text fields. User pick photo from the camera or existing photo album.
+
+TableController and CollectionController - displays recently sent memes. User can delete selected image in Table View Controller.
+
+DetailController - displays the selected meme in an image view in the center of the page with the meme’s original image. User can edit the selected memed image as well. 
+
+## Main Development Technique
+MVC/Singleton Pattern
+ImagePicker Controller
+Delegate Pattern for UITextFieldDelegate Protocol
+
 
 * Text fields need to be clear and have white text with black outline.
 * Font needs to be similar to Impact.
@@ -10,4 +23,5 @@ Build an app where a user can choose an image to create a meme from their camera
   is pressed (also dismissing the keyboard). 
 * Camera button needs to be disabled when used on a device without a camera. 
 
-Utilizes ActivityViewController. 
+## License
+MIT License
